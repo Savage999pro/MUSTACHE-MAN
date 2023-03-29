@@ -1,0 +1,23 @@
+body{
+    background: linear-gradient(to right, #f12711, #f5af19);
+   }
+   button{
+    background: linear-gradient(to right, #00f260, #0575e6);
+   font-size:20px;
+}
+   .chicken{
+    background: linear-gradient(to right, #00f260, #0575e6);
+    font-size:40px;
+    border-radius:60px;
+}
+canvas{
+    border-radius:60px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count:infinite;
+}
+@keyframes example{
+    from {box-shadow: 15px 15px 40px blue;}
+    to {box-shadow: 15px 15px   40px  rgb(255, 0, 0);}
+}
